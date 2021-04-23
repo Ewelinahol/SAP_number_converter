@@ -18,6 +18,8 @@ Application for recruitment.
 <http://localhost:8080/api/all>
 
 ### Instruction for running application using Docker:
+(If you use Linux run `chmod +x mvnw`)
+
 `docker-compose up -d --build` 
 
 ##### Docker hub repo:
