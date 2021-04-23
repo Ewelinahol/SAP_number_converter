@@ -1,0 +1,14 @@
+version: "3.9"
+services:
+  web:
+    container_name: converter
+    build: .
+    ports:
+      - "8080:8080"
+
+  converter-mysql:
+    image: mysql:8.0
+    container_name: converter-mysql
+    environment:
+      - MYSQL_DATABASE=number-converter
+      - MYSQL_ROOT_PASSWORD=1234
