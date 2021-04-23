@@ -16,5 +16,4 @@ COPY --from=build ${DEPENDENCY}/BOOT-INF/lib /app/lib
 COPY --from=build ${DEPENDENCY}/META-INF /app/META-INF
 COPY --from=build ${DEPENDENCY}/BOOT-INF/classes /app
 CMD ["java","-cp","app:app/lib/*","com.numberconverter.number_converter.NumberConverterApplication"]
-#CMD while true; do sleep 1000; done
 
