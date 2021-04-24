@@ -17,6 +17,9 @@ Application for recruitment.
 - #### Listing all saved results:
 <http://localhost:8080/api/all>
 
+### How to run documentation:
+<http://localhost:8080/swagger-ui.html>
+
 ### Instruction for running application using Docker:
 (If you use Linux run `chmod +x mvnw`)
 
